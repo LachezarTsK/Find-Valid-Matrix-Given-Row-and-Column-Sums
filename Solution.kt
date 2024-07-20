@@ -14,7 +14,7 @@ class Solution {
         while (row < numberOfRows && column < numberOfColumns) {
             val restoredValue = min(rowSum[row], columnSum[column])
 
-            restoredMatrix[row][column] = restoredValue;
+            restoredMatrix[row][column] = restoredValue
             rowSum[row] -= restoredValue
             columnSum[column] -= restoredValue
 
